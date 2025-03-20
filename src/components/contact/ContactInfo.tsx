@@ -36,7 +36,7 @@ const ContactInfo = () => {
               <h4 className="text-base font-medium">Let's connect</h4>
               <div className="flex space-x-4 mt-2">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/itsredx" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-blue-500 transition-colors"
@@ -44,7 +44,7 @@ const ContactInfo = () => {
                   GitHub
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://linkedin.com/in/ahmad-bash-dev/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-blue-500 transition-colors"
@@ -52,7 +52,7 @@ const ContactInfo = () => {
                   LinkedIn
                 </a>
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/AhmadMBashir2" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-blue-500 transition-colors"

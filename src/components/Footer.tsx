@@ -21,8 +21,8 @@ const Footer = () => {
             
             <div className="flex space-x-4 mt-6">
               <a 
-                href="https://github.com" 
-                target="_blank" 
+                href="https://github.com/itsredx" 
+                target="https://github.com/itsredx" 
                 rel="noopener noreferrer"
                 className="bg-secondary rounded-full p-2 text-muted-foreground hover:text-blue-500 transition-colors"
                 aria-label="GitHub"
@@ -30,8 +30,8 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
-                target="_blank" 
+                href="https://linkedin.com/in/ahmad-bash-dev/" 
+                target="https://www.linkedin.com/in/ahmad-bash-dev/" 
                 rel="noopener noreferrer"
                 className="bg-secondary rounded-full p-2 text-muted-foreground hover:text-blue-500 transition-colors"
                 aria-label="LinkedIn"
@@ -39,8 +39,8 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="https://twitter.com" 
-                target="_blank" 
+                href="https://x.com/AhmadMBashir2" 
+                target="https://x.com/AhmadMBashir2" 
                 rel="noopener noreferrer"
                 className="bg-secondary rounded-full p-2 text-muted-foreground hover:text-blue-500 transition-colors"
                 aria-label="Twitter"
@@ -80,11 +80,11 @@ const Footer = () => {
             <h3 className="font-medium text-lg mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="text-muted-foreground">
-                hello@example.com
+                ambashir02@gmail.com
               </li>
               <li>
                 <a 
-                  href="mailto:hello@example.com"
+                  href="mailto:ambashir02@gmail.com"
                   className="text-muted-foreground hover:text-blue-500 transition-colors"
                 >
                   Email Me
@@ -104,7 +104,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {currentYear} Portfolio. All rights reserved.
+            &copy; {currentYear} RED X. All rights reserved.
           </p>
           
           <div className="flex space-x-6 mt-4 md:mt-0">

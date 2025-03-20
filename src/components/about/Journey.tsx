@@ -20,12 +20,12 @@ const Journey = () => {
             <div className="rounded-full bg-blue-100 p-3 mb-3">
               <GraduationCap className="h-6 w-6 text-blue-500" />
             </div>
-            <div className="text-sm text-muted-foreground">2015 - 2019</div>
+            <div className="text-sm text-muted-foreground">2021 - 2023</div>
           </div>
           <div className="flex-grow bg-card border border-border rounded-2xl p-6">
             <h3 className="text-xl font-display font-medium mb-2">Education & Early Projects</h3>
             <p className="text-muted-foreground">
-              Completed my education in Computer Science while working on side projects that 
+              Completed my education in Computer Software Engineering while working on side projects that 
               laid the foundation for my career. Started exploring Python and web development.
             </p>
           </div>
@@ -36,7 +36,7 @@ const Journey = () => {
             <div className="rounded-full bg-blue-100 p-3 mb-3">
               <Code className="h-6 w-6 text-blue-500" />
             </div>
-            <div className="text-sm text-muted-foreground">2019 - 2021</div>
+            <div className="text-sm text-muted-foreground">2023 - 2024</div>
           </div>
           <div className="flex-grow bg-card border border-border rounded-2xl p-6">
             <h3 className="text-xl font-display font-medium mb-2">Python Framework Development</h3>
@@ -52,7 +52,7 @@ const Journey = () => {
             <div className="rounded-full bg-blue-100 p-3 mb-3">
               <Briefcase className="h-6 w-6 text-blue-500" />
             </div>
-            <div className="text-sm text-muted-foreground">2021 - 2023</div>
+            <div className="text-sm text-muted-foreground">2023 - 2024</div>
           </div>
           <div className="flex-grow bg-card border border-border rounded-2xl p-6">
             <h3 className="text-xl font-display font-medium mb-2">E-commerce & Teesical</h3>
@@ -68,7 +68,7 @@ const Journey = () => {
             <div className="rounded-full bg-blue-100 p-3 mb-3">
               <Rocket className="h-6 w-6 text-blue-500" />
             </div>
-            <div className="text-sm text-muted-foreground">2023 - Present</div>
+            <div className="text-sm text-muted-foreground">2024 - Present</div>
           </div>
           <div className="flex-grow bg-card border border-border rounded-2xl p-6">
             <h3 className="text-xl font-display font-medium mb-2">Current Projects & Future Vision</h3>

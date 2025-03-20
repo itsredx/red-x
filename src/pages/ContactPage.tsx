@@ -25,20 +25,33 @@ const ContactPage = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+  
+    const response = await fetch("https://formsubmit.co/ambashir02@gmail.com", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+  
+    if (response.ok) {
       setIsSubmitting(false);
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      setFormData({ name: "", email: "",subject: '', message: "" });
       toast({
         title: "Message sent",
         description: "Thank you for your message. I'll get back to you soon.",
       });
-    }, 1000);
+    } else {
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
+      setIsSubmitting(false);
+    }
   };
+  
 
   return (
     <motion.div
@@ -87,7 +100,7 @@ const ContactPage = () => {
                         href="mailto:hello@example.com" 
                         className="text-muted-foreground hover:text-blue-500 transition-colors"
                       >
-                        hello@example.com
+                        ambashir02@gmail.com
                       </a>
                     </div>
                   </div>
@@ -123,7 +136,7 @@ const ContactPage = () => {
                 
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/itsredx" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-secondary rounded-full p-3 text-muted-foreground hover:text-blue-500 transition-colors"
@@ -132,7 +145,7 @@ const ContactPage = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/in/ahmad-bash-dev/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-secondary rounded-full p-3 text-muted-foreground hover:text-blue-500 transition-colors"
@@ -141,7 +154,7 @@ const ContactPage = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://twitter.com" 
+                    href="https://x.com/AhmadMBashir2" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-secondary rounded-full p-3 text-muted-foreground hover:text-blue-500 transition-colors"
