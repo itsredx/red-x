@@ -19,7 +19,7 @@ const About = () => {
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">
-              I'm a developer and entrepreneur with a passion for creating elegant solutions to complex problems. 
+              I'm Ahmad Muhammad Bashir, also known as Red X, a developer and entrepreneur with a passion for creating elegant solutions to complex problems. 
               With expertise in Python, web development, and e-commerce, I bring technical skill and business 
               acumen to every project.
             </p>

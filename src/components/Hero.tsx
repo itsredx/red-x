@@ -22,8 +22,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-display font-semibold mb-6 tracking-tight text-balance">
-            Building digital experiences <br className="hidden md:block" />
-            with <span className="text-gradient">purpose</span> and <span className="text-gradient">precision</span>.
+            Hi, I'm <span className="text-gradient">Ahmad Muhammad Bashir</span> <br className="hidden md:block" />
+            aka <span className="text-gradient">Red X</span>.
           </h1>
           
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto md:mx-0 mb-10">

@@ -47,7 +47,7 @@ const AboutPage = () => {
                 </h2>
                 
                 <p className="text-muted-foreground text-lg mb-6">
-                  I'm a developer and entrepreneur with a passion for creating elegant solutions to complex problems. 
+                  I'm Ahmad Muhammad Bashir, also known as Red X, a developer and entrepreneur with a passion for creating elegant solutions to complex problems. 
                   With expertise in Python, web development, and e-commerce, I bring technical skill and business 
                   acumen to every project.
                 </p>
@@ -93,8 +93,8 @@ const AboutPage = () => {
                   </svg>
                 </div>
                 <img 
-                  src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
-                  alt="Developer working" 
+                  src="/lovable-uploads/bc4d34a4-440d-4fa2-9f09-da9e641d86ac.png" 
+                  alt="Ahmad Muhammad Bashir (Red X)" 
                   className="w-full h-full object-cover"
                 />
               </motion.div>
