@@ -1,9 +1,9 @@
-
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Code, Briefcase, Lightbulb, GraduationCap, Rocket } from 'lucide-react';
+import Skills from '@/components/Skills';
+import { Code, Briefcase, Lightbulb, GraduationCap, Rocket, FileText } from 'lucide-react';
 
 const AboutPage = () => {
   useEffect(() => {
@@ -63,15 +63,35 @@ const AboutPage = () => {
                   an exceptional user experience. This philosophy guides all my work, from developing 
                   Python frameworks to implementing e-commerce solutions.
                 </p>
+
+                <div className="mt-8">
+                  <a
+                    href="https://docs.google.com/document/d/1234567890"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center h-12 px-6 font-medium bg-primary text-white rounded-full transition-all hover:shadow-lg hover:translate-y-[-2px] group"
+                  >
+                    <FileText className="mr-2 h-5 w-5 group-hover:animate-pulse" /> Get My Resume
+                  </a>
+                </div>
               </motion.div>
               
               <motion.div
                 initial={{ opacity: 0, x: 30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="relative aspect-square rounded-2xl overflow-hidden"
+                className="relative aspect-square rounded-2xl overflow-hidden group"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20"></div>
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-700">
+                  <svg width="100%" height="100%" className="stroke-primary">
+                    <pattern id="sketch-main" patternUnits="userSpaceOnUse" width="50" height="50" patternTransform="rotate(45)">
+                      <line x1="0" y1="0" x2="50" y2="50" strokeWidth="0.5" />
+                      <line x1="50" y1="0" x2="0" y2="50" strokeWidth="0.5" />
+                    </pattern>
+                    <rect width="100%" height="100%" fill="url(#sketch-main)" />
+                  </svg>
+                </div>
                 <img 
                   src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
                   alt="Developer working" 
@@ -197,6 +217,8 @@ const AboutPage = () => {
             </motion.div>
           </div>
         </section>
+
+        <Skills />
 
         <section className="py-16 px-6 bg-secondary/30">
           <div className="container mx-auto max-w-2xl text-center">
