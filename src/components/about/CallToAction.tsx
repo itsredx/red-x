@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom'; // Ensure correct import
 
 const CallToAction = () => {
   return (
@@ -12,12 +13,12 @@ const CallToAction = () => {
           I'm always open to new projects and collaborations. If you have an idea or need a 
           developer with my expertise, don't hesitate to reach out.
         </p>
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="inline-flex items-center justify-center h-12 px-8 font-medium bg-primary text-white rounded-full transition-all hover:shadow-lg hover:translate-y-[-2px]"
         >
           Get in Touch
-        </a>
+        </Link>
       </div>
     </section>
   );

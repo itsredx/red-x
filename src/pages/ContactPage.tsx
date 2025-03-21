@@ -7,6 +7,7 @@ import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-rea
 import { toast } from '@/components/ui/use-toast';
 import { cn } from '@/lib/utils';
 import emailjs from '@emailjs/browser'; // Import EmailJS
+import { Link } from 'react-router-dom'; // Ensure correct import
 
 interface FormData {
     name: string;
@@ -311,12 +312,12 @@ const ContactPage = () => {
                             >
                                 Email Me Directly
                             </a>
-                            <a
-                                href="/projects"
+                            <Link
+                                to="/projects"
                                 className="inline-flex items-center justify-center h-12 px-6 font-medium text-primary border border-primary/50 rounded-full transition-all hover:bg-primary/5"
                             >
                                 View My Work
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>

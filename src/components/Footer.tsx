@@ -91,12 +91,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
-                  href="/contact"
+                <Link 
+                  to="/contact"
                   className="text-muted-foreground hover:text-blue-500 transition-colors"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -108,12 +108,12 @@ const Footer = () => {
           </p>
           
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-blue-500 transition-colors">
+            <Link to="/" className="text-sm text-muted-foreground hover:text-blue-500 transition-colors">
               Privacy Policy
-            </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-blue-500 transition-colors">
+            </Link>
+            <Link to="/" className="text-sm text-muted-foreground hover:text-blue-500 transition-colors">
               Terms of Service
-            </a>
+            </Link>
           </div>
         </div>
       </div>
