@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Welcome to your Red X Portfolio project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb
+**URL**: https://Red X Portfolio.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use Red X Portfolio**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb) and start prompting.
+Simply visit the [Red X Portfolio Project](https://Red X Portfolio.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Red X Portfolio will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Red X Portfolio.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,8 +62,8 @@ This project is built with .
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb) and click on Share -> Publish.
+Simply open [Red X Portfolio](https://Red X Portfolio.dev/projects/02ed2af0-9542-4b86-abab-719cf58f18eb) and click on Share -> Publish.
 
 ## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.Red X Portfolio.dev/tips-tricks/custom-domain/)
