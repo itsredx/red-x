@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProjectCard from '@/components/ProjectCard';
+import { Link } from 'react-router-dom'; // Ensure correct import
 
 const projectsData = [
   {
@@ -149,12 +150,12 @@ const ProjectsPage = () => {
             <p className="text-muted-foreground text-lg mb-8">
               I'm always open to discussing product design, development work, or collaboration opportunities.
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center h-12 px-8 font-medium bg-primary text-white rounded-full transition-all hover:shadow-lg hover:translate-y-[-2px]"
             >
               Start a Conversation
-            </a>
+            </Link>
           </div>
         </section>
       </main>
