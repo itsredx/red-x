@@ -38,7 +38,7 @@ const About = () => {
                 My Journey
               </a>
               <a
-                href="https://docs.google.com/document/d/1234567890"
+                href="https://drive.google.com/file/d/1BfzmyYtp1EIlW4uLmLTzM0ts234753bM/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium border border-primary/50 rounded-full transition-all hover:bg-primary/5 group"

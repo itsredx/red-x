@@ -35,7 +35,7 @@ const AboutHero = () => {
 
         <div className="mt-8">
           <a
-            href="https://docs.google.com/document/d/1234567890"
+            href="https://drive.google.com/file/d/1BfzmyYtp1EIlW4uLmLTzM0ts234753bM/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center h-12 px-6 font-medium bg-primary text-white rounded-full transition-all hover:shadow-lg hover:translate-y-[-2px] group"
@@ -64,7 +64,7 @@ const AboutHero = () => {
         <img 
           src="/lovable-uploads/bc4d34a4-440d-4fa2-9f09-da9e641d86ac.png" 
           alt="Ahmad Muhammad Bashir (Red X)" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-left"
         />
       </motion.div>
     </div>
