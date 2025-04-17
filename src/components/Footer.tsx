@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <Link to="/" className="text-2xl font-display font-medium mb-4 inline-block">
-              Portfolio<span className="text-blue-500">.</span>
+              RED X<span className="text-blue-500">.</span>
             </Link>
             <p className="text-muted-foreground mt-4 max-w-md">
               A passionate developer and entrepreneur creating innovative solutions 
