@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 
 const projectsData = [
@@ -61,12 +62,12 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-16">
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="inline-flex items-center justify-center h-12 px-6 font-medium bg-primary text-white rounded-full transition-all hover:shadow-lg hover:translate-y-[-2px]"
           >
             View All Projects
-          </a>
+          </Link>
         </div>
       </div>
     </section>
