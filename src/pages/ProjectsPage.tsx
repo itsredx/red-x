@@ -17,7 +17,7 @@ const projectsData = [
   {
     title: 'InquisiSTEM',
     description: 'The AI Biology Teacher Trainer! Interactive 3D models and AI chat to enhance your teaching skills.',
-    technologies: ['NextJS', 'React', 'Groq', 'API Integration', 'ThreeJS'],
+    technologies: ['NextJS', 'React', 'Groq AI', 'ThreeJS'],
     imageUrl: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     link: 'https://inquisi-stem.vercel.app/',
   },
