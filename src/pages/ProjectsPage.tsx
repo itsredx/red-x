@@ -46,7 +46,7 @@ const projectsData = [
     title: 'Mobile App for Task Management',
     description: 'Cross-platform mobile application for personal and team task management with real-time synchronization.',
     technologies: ['React Native', 'Firebase', 'Mobile App'],
-    imageUrl: null,
+    imageUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01c03a160969519.63bd95e49e6c1.jpg',
     link: '#',
   },
 ];
