@@ -30,7 +30,7 @@ const projectsData = [
   title: 'Responsive Clip-Path Generator',
   description: 'A visual tool for creating responsive CSS clip-path shapes with rounded corners. Features live preview, canvas visualization, and auto-copy CSS output.',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Canvas', 'UI/UX'],
-  imageUrl: 'https://images.unsplash.com/photo-1529101091764-c3526daf38fe',
+  imageUrl: 'https://images.unsplash.com/photo-1699040309386-11c615ed64d5?q=80&w=1198&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   link: 'https://responsive-clip-path-gen.vercel.app/',
 },
 ];
