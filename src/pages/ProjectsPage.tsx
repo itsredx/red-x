@@ -29,6 +29,13 @@ const projectsData = [
     link: 'https://hetan.vercel.app/',
   },
   {
+    title: 'Responsive Clip-Path Generator',
+    description: 'A visual tool for creating responsive CSS clip-path shapes with rounded corners. Features live preview, canvas visualization, and auto-copy CSS output.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Canvas', 'UI/UX'],
+    imageUrl: 'https://images.unsplash.com/photo-1529101091764-c3526daf38fe',
+    link: 'https://responsive-clip-path-gen.vercel.app/',
+  },
+  {
     title: 'E-commerce Analytics Tool',
     description: 'Analytics platform for e-commerce businesses to track sales, customer behavior, and inventory management.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Data Analysis'],
