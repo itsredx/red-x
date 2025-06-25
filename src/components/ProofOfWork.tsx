@@ -12,6 +12,7 @@ const projects = [
   },
   {
     title: "InquisiStem",
+    icon: "<Globe/>
     description:
       "A curiosity-driven 3D learning prototype built in under 6 hours. Combines AI with an interactive 3D vibe for engaging and fun education.",
     github: "https://inquisi-stem.vercel.app/",
