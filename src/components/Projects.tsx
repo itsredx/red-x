@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard';
 
 const projectsData = [
   {
-    title: 'Python GUI Framework',
+    title: 'Pythra – Python GUI Framework',
     description: 'A Flutter-like experience for Python developers. Build beautiful, responsive GUIs with a familiar and intuitive API.',
     technologies: ['Python', 'UI/UX', 'Framework'],
     imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
