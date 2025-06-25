@@ -33,6 +33,13 @@ const projectsData = [
   imageUrl: 'https://images.unsplash.com/photo-1699040309386-11c615ed64d5?q=80&w=1198&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   link: 'https://responsive-clip-path-gen.vercel.app/',
 },
+  {
+    title: "FarmWisely",
+    description: "An AI-powered assistant that gives smart farm recommendations based on user-submitted data. Built for rural impact and simplicity.",
+    technologies: ['Flutter', 'Groq', 'Llama 3.3', 'AI', 'UI/UX'],
+    imageUrl: 'https://images.unsplash.com/photo-1686008674009-876c599f1fe9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmFybSUyMHRlY2glMjBhcHB8ZW58MHx8MHx8fDA%3D',
+    github: "https://github.com/itsredx/Farmwisely-mobile",
+  },
 ];
 
 const Projects = () => {
