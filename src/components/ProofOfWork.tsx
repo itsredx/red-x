@@ -8,18 +8,21 @@ const projects = [
     description:
       "A Python GUI framework inspired by Flutter, built from scratch. Features include widget registry, state management, layout engine, and more.",
     github: "https://github.com/itsredx/pythra-0.0.1",
+    link_label: "Github",
   },
   {
     title: "InquisiStem",
     description:
       "A curiosity-driven 3D learning prototype built in under 6 hours. Combines AI with an interactive 3D vibe for engaging and fun education.",
     github: "https://inquisi-stem.vercel.app/",
+    link_label: "InquisiStem",
   },
   {
     title: "FarmWisely",
     description:
       "An AI-powered assistant that gives smart farm recommendations based on user-submitted data. Built for rural impact and simplicity.",
     github: "https://github.com/itsredx/Farmwisely-mobile",
+    link_label: "Github",
   },
 ];
 
@@ -43,7 +46,7 @@ export default function ProofOfWork() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline"
                 >
-                  <Github size={16} /> GitHub
+                  <Github size={16} /> {proj.link_label}
                 </a>
               </div>
             </div>
