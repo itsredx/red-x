@@ -8,6 +8,7 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import ProofOfWork from '@/components/ProofOfWork';
 
 const Index = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const Index = () => {
     >
       <Navbar />
       <Hero />
+      <ProofOfWork />
       <Projects />
       <About />
       <Skills />
