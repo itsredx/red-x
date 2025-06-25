@@ -40,7 +40,7 @@ const projectsData = [
     description: "An AI-powered assistant that gives smart farm recommendations based on user-submitted data. Built for rural impact and simplicity.",
     technologies: ['Flutter', 'Groq', 'Llama 3.3', 'AI', 'UI/UX'],
     imageUrl: 'https://images.unsplash.com/photo-1686008674009-876c599f1fe9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmFybSUyMHRlY2glMjBhcHB8ZW58MHx8MHx8fDA%3D',
-    github: "https://github.com/itsredx/Farmwisely-mobile",
+    link: "https://github.com/itsredx/Farmwisely-mobile",
   },
   {
     title: 'E-commerce Analytics Tool',
