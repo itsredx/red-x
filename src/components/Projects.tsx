@@ -10,7 +10,7 @@ const projectsData = [
     description: 'A Flutter-like experience for Python developers. Build beautiful, responsive GUIs with a familiar and intuitive API.',
     technologies: ['Python', 'UI/UX', 'Framework'],
     imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    link: 'https://github.com/itsredx/pythra',
+    link: 'https://github.com/itsredx/pythra-0.0.1',
   },
   {
     title: 'InquisiSTEM',
