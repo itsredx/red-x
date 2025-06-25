@@ -13,7 +13,7 @@ const projectsData = [
     link: 'https://github.com/itsredx/pythra-0.0.1',
   },
   {
-    title: 'InquisiSTEM',
+    title: 'InquisiSTEM AI App',
     description: 'The AI Biology Teacher Trainer! Interactive 3D models and AI chat to enhance your teaching skills.',
     technologies: ['NextJS', 'React', 'Groq AI', 'ThreeJS'],
     imageUrl: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
