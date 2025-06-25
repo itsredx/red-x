@@ -49,7 +49,7 @@ export default function ProofOfWork() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline"
                 >
-                  {proj.icon} {proj.link_label}
+                  {proj.link_label}
                 </a>
               </div>
             </div>
