@@ -5,6 +5,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: "Pythra",
+    icon: <Github size={16} />,
     description:
       "A Python GUI framework inspired by Flutter, built from scratch. Features include widget registry, state management, layout engine, and more.",
     github: "https://github.com/itsredx/pythra-0.0.1",
@@ -12,7 +13,7 @@ const projects = [
   },
   {
     title: "InquisiStem",
-    icon: "<Globe/>"
+    icon: <Globe size={16} />,
     description:
       "A curiosity-driven 3D learning prototype built in under 6 hours. Combines AI with an interactive 3D vibe for engaging and fun education.",
     github: "https://inquisi-stem.vercel.app/",
@@ -20,6 +21,7 @@ const projects = [
   },
   {
     title: "FarmWisely",
+    icon: <Github size={16} />,
     description:
       "An AI-powered assistant that gives smart farm recommendations based on user-submitted data. Built for rural impact and simplicity.",
     github: "https://github.com/itsredx/Farmwisely-mobile",
@@ -47,7 +49,7 @@ export default function ProofOfWork() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline"
                 >
-                  <Github size={16} /> {proj.link_label}
+                  {proj.icon} {proj.link_label}
                 </a>
               </div>
             </div>
