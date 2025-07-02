@@ -124,7 +124,22 @@ const ContactPage = () => {
                                 </h2>
 
                                 <div className="w-full h-64 mb-8 rounded-2xl overflow-hidden shadow-lg">
-                                  <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sng!4v1751471930039!5m2!1sen!2sng!6m8!1m7!1sOGpqRgscDjT9wGZ_pbCZDw!2m2!1d11.97651278281158!2d8.473610875431177!3f295.10734998470366!4f-13.816427814754547!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d975.7427345179838!2d8.473610875431177!3d11.97651278281158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDU4JzM1LjciTiA4wrAyOCcyNC45IkU!5e0!3m2!1sen!2sng!4v1751472214466!5m2!1sen!2sng" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    ></iframe>
+                                  <iframe
+                                    src="https://www.google.com/maps?q=11.9765128,8.4736109&z=18&output=embed"
+                                    width="100%"
+                                    height="100%"
+                                  style={{ border: 0 }}
+                                   allowFullScreen
+                                   loading="lazy"
+                                 ></iframe>
                                </div>
 
                                 <div className="space-y-6 mb-10">
