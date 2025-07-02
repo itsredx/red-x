@@ -123,6 +123,17 @@ const ContactPage = () => {
                                     Contact Information
                                 </h2>
 
+                                <div className="w-full h-64 mb-8 rounded-2xl overflow-hidden shadow-lg">
+                                  <iframe
+                                    src="https://www.google.com/maps?q=11.9765128,8.4736109&z=18&output=embed"
+                                    width="100%"
+                                    height="100%"
+                                  style={{ border: 0 }}
+                                   allowFullScreen
+                                   loading="lazy"
+                                 ></iframe>
+                               </div>
+
                                 <div className="space-y-6 mb-10">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 bg-secondary rounded-full p-3 mr-4">
