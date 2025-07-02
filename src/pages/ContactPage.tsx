@@ -132,14 +132,6 @@ const ContactPage = () => {
                                     loading="lazy" 
                                     referrerpolicy="no-referrer-when-downgrade"
                                     ></iframe>
-                                  <iframe
-                                    src="https://www.google.com/maps?q=11.9765128,8.4736109&z=18&output=embed"
-                                    width="100%"
-                                    height="100%"
-                                  style={{ border: 0 }}
-                                   allowFullScreen
-                                   loading="lazy"
-                                 ></iframe>
                                </div>
 
                                 <div className="space-y-6 mb-10">
