@@ -29,6 +29,18 @@ const AboutPage = () => {
           <div className="container mx-auto max-w-6xl">
             <AboutHeader />
             <AboutHero />
+            {/* EMBEDDED VIDEO */}
+            <div className="my-12">
+              <video
+                src="/video.mp4"
+                controls
+                preload="metadata"
+                poster="/video-poster.jpg"
+                className="w-full rounded-2xl shadow-lg"
+              >
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
             <Expertise />
             <Journey />
           </div>
