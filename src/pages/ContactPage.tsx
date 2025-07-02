@@ -125,7 +125,7 @@ const ContactPage = () => {
 
                                 <div className="w-full h-64 mb-8 rounded-2xl overflow-hidden shadow-lg">
                                     <iframe
-                                    src="https://www.google.com/maps?q=11.9765128,8.4736109&z=18&output=embed"
+                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d975.7427345179838!2d8.473610875431177!3d11.97651278281158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDU4JzM1LjciTiA4wrAyOCcyNC45IkU!5e0!3m2!1sen!2sng!4v1751472214466!5m2!1sen!2sng&output=embed"
                                     width="100%"
                                     height="100%"
                                   style={{ border: 0 }}
