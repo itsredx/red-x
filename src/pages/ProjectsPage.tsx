@@ -29,6 +29,13 @@ const projectsData = [
     link: 'https://hetan.vercel.app/',
   },
   {
+    title: 'Greenland Agrotech',
+    description: 'Responsive and sleek  landing page for Greenland Agrotech R&D in powdered food innovations to AI-powered farming solutions',
+    technologies: ['JavaScript', 'Mobile first', 'Vite', 'UI/UX'],
+    imageUrl: 'https://greenland-agrotech.vercel.app/og.png',
+    link: 'https://greenland-agrotech.vercel.app/',
+  },
+  {
     title: 'Responsive Clip-Path Generator',
     description: 'A visual tool for creating responsive CSS clip-path shapes with rounded corners. Features live preview, canvas visualization, and auto-copy CSS output.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Canvas', 'UI/UX'],
