@@ -70,6 +70,13 @@ const projectsData = [
     imageUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01c03a160969519.63bd95e49e6c1.jpg',
     link: '#',
   },
+  {
+  title: 'Ask My Data – AI Chat With Your Own Notes',
+  description: 'Upload your personal notes or documents, then chat with an AI that answers questions based only on your uploaded content. Powered by Groq API for fast, context-aware responses.',
+  technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Groq API', 'Prisma'],
+  imageUrl: 'https://images.unsplash.com/photo-1633436376505-d6f2e97e8f42',
+  link: 'https://ask-my-data.vercel.app',
+},
 ];
 
 const categories = ['All', 'Python', 'React', 'E-commerce', 'PHP', 'Mobile'];
