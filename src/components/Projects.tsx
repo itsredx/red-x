@@ -40,6 +40,13 @@ const projectsData = [
     imageUrl: 'https://images.unsplash.com/photo-1686008674009-876c599f1fe9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmFybSUyMHRlY2glMjBhcHB8ZW58MHx8MHx8fDA%3D',
     github: "https://github.com/itsredx/Farmwisely-mobile",
   },
+  {
+  title: 'Ask My Data – AI Chat With Your Own Notes',
+  description: 'Upload your personal notes or documents, then chat with an AI that answers questions based only on your uploaded content. Powered by Groq API for fast, context-aware responses.',
+  technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Groq API', 'Prisma'],
+  imageUrl: 'https://images.unsplash.com/photo-1740908900846-4bbd4f22c975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  link: 'https://ask-my-data.vercel.app',
+},
 ];
 
 const Projects = () => {
