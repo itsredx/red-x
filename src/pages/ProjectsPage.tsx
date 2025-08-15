@@ -74,7 +74,7 @@ const projectsData = [
   title: 'Ask My Data – AI Chat With Your Own Notes',
   description: 'Upload your personal notes or documents, then chat with an AI that answers questions based only on your uploaded content. Powered by Groq API for fast, context-aware responses.',
   technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Groq API', 'Prisma'],
-  imageUrl: 'https://images.unsplash.com/photo-1633436376505-d6f2e97e8f42',
+  imageUrl: 'https://images.unsplash.com/photo-1740908900846-4bbd4f22c975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   link: 'https://ask-my-data.vercel.app',
 },
 ];
