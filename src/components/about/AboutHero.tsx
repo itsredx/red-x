@@ -62,7 +62,7 @@ const AboutHero = () => {
           </svg>
         </div>
         <img 
-          src="/lovable-uploads/bc4d34a4-440d-4fa2-9f09-da9e641d86ac.png" 
+          src="/lovable-uploads/1766123006642.jpeg" 
           alt="Ahmad Muhammad Bashir (Red X)" 
           className="w-full h-full object-cover object-left"
         />
