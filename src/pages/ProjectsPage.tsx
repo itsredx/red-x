@@ -9,10 +9,24 @@ import { Link } from 'react-router-dom'; // Ensure correct import
 const projectsData = [
   {
     title: 'WAEC Insights — WAEC Performance Predictor',
-    description: 'Roadmap and implementation for improving WAEC pass-rate prediction (2016–2021) by upgrading a Random Forest baseline to time-aware XGBoost/CatBoost models with lag features, external data enrichment, and time-series validation.',
+    description: 'Roadmap and implementation for improving WAEC pass-rate prediction (2016–2021) by upgrading a Random Forest baseline to time-aware XGBoost/CatBoost models.',
     technologies: ['Python', 'XGBoost', 'CatBoost', 'Feature Engineering', 'TimeSeriesSplit', 'Data Engineering', 'Machine Learning'],
     imageUrl: 'https://images.unsplash.com/photo-1599344941194-5eb5eaaaf73d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     link: 'https://waec-insights.onrender.com',
+  },
+  {
+    title: 'Courier Dashboard',
+    description: 'A dashboard for delivery companies to manage deliveries and riders; part of a larger delivery platform. Backend: Django; frontend link below.',
+    technologies: ['Django', 'Dashboard', 'Logistics', 'React', 'Frontend'],
+    imageUrl: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d',
+    link: 'https://courier-dashboard-five.vercel.app/',
+  },
+  {
+    title: 'Fintech Payouts',
+    description: 'Cross-currency transactions platform using blockchain tech to enable fast, easy business payments. Backend: Django; frontend link below.',
+    technologies: ['Django', 'Blockchain', 'Fintech', 'Payments', 'React'],
+    imageUrl: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4',
+    link: 'https://finntech-payouts.vercel.app/',
   },
   {
     title: 'Pythra – Python GUI Framework Inspired by Flutter',
