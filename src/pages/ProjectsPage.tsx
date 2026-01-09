@@ -29,6 +29,13 @@ const projectsData = [
     link: 'https://finntech-payouts.vercel.app/',
   },
   {
+    title: 'Ramadan Room — Tournament Website',
+    description: 'A tournament website for mobile PUBG clan competitions with clear rules (punctual start, room ID sharing, mobile only), anti-cheat policies, and respectful community guidelines.',
+    technologies: ['React', 'Vercel', 'Tournaments', 'Gaming', 'UI/UX'],
+    imageUrl: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80',
+    link: 'https://ramadan-room.vercel.app/',
+  },
+  {
     title: 'Pythra – Python GUI Framework Inspired by Flutter',
     description: 'A Flutter-like experience for Python developers. Build beautiful, responsive GUIs with a familiar and intuitive API.',
     technologies: ['Python', 'UI/UX', 'Framework'],
@@ -101,7 +108,7 @@ const projectsData = [
   
 ];
 
-const categories = ['All', 'Python', 'React', 'E-commerce', 'PHP', 'Mobile'];
+const categories = ['All', 'Python', 'React', 'E-commerce', 'PHP', 'Mobile', 'Gaming', 'Fintech'];
 
 const ProjectsPage = () => {
   const [activeCategory, setActiveCategory] = useState('All');
