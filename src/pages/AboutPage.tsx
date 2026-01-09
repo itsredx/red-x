@@ -30,7 +30,7 @@ const AboutPage = () => {
             <AboutHeader />
             <AboutHero />
             {/* EMBEDDED VIDEO */}
-            <div className="my-12">
+            {/* <div className="my-12">
               <video
                 src="/video.mp4"
                 controls
@@ -40,7 +40,7 @@ const AboutPage = () => {
               >
                 Your browser does not support HTML5 video.
               </video>
-            </div>
+            </div> */}
             <Expertise />
             <Journey />
           </div>
