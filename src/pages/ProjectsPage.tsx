@@ -8,11 +8,18 @@ import { Link } from 'react-router-dom'; // Ensure correct import
 
 const projectsData = [
   {
+    title: 'WAEC Insights — WAEC Performance Predictor',
+    description: 'Roadmap and implementation for improving WAEC pass-rate prediction (2016–2021) by upgrading a Random Forest baseline to time-aware XGBoost/CatBoost models with lag features, external data enrichment, and time-series validation.',
+    technologies: ['Python', 'XGBoost', 'CatBoost', 'Feature Engineering', 'TimeSeriesSplit', 'Data Engineering', 'Machine Learning'],
+    imageUrl: 'https://images.unsplash.com/photo-1556157382-97eda2d62296',
+    link: 'https://waec-insights.onrender.com',
+  },
+  {
     title: 'Pythra – Python GUI Framework Inspired by Flutter',
     description: 'A Flutter-like experience for Python developers. Build beautiful, responsive GUIs with a familiar and intuitive API.',
     technologies: ['Python', 'UI/UX', 'Framework'],
     imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    link: 'https://github.com/itsredx/pythra-0.0.1',
+    link: 'https://github.com/pythra-toolkit/pythra-toolkit',
   },
   {
     title: 'InquisiSTEM AI App',
@@ -71,12 +78,13 @@ const projectsData = [
     link: '#',
   },
   {
-  title: 'Ask My Data – AI Chat With Your Own Notes',
-  description: 'Upload your personal notes or documents, then chat with an AI that answers questions based only on your uploaded content. Powered by Groq API for fast, context-aware responses.',
-  technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Groq API', 'Prisma'],
-  imageUrl: 'https://images.unsplash.com/photo-1740908900846-4bbd4f22c975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  link: 'https://ask-my-data.vercel.app',
-},
+    title: 'Ask My Data – AI Chat With Your Own Notes',
+    description: 'Upload your personal notes or documents, then chat with an AI that answers questions based only on your uploaded content. Powered by Groq API for fast, context-aware responses.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Groq API', 'Prisma'],
+    imageUrl: 'https://images.unsplash.com/photo-1740908900846-4bbd4f22c975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    link: 'https://ask-my-data.vercel.app',
+  },
+  
 ];
 
 const categories = ['All', 'Python', 'React', 'E-commerce', 'PHP', 'Mobile'];
