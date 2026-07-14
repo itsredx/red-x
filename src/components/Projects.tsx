@@ -17,14 +17,14 @@ const projectsData = [
     description: 'A high performance, statically typed systems programming language with Python-like syntax. Designed for native applications, operating systems, embedded software, compilers, and high performance computing with explicit memory management and zero-cost abstractions.',
     technologies: ['LLVM', 'Systems Programming', 'Native', 'Compiler'],
     imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
-    link: 'https://github.com/itsredx/mantiq',
+    link: 'https://github.com/itsredx/mantiqz',
   },
   {
     title: 'Mantiq – General Purpose Programming Language',
     description: 'A modern, expressive programming language that combines Python-like readability with native performance. Built for scripting, web backends, desktop applications, AI, and scalable software, while sharing the same compiler ecosystem as Nizam.',
     technologies: ['LLVM', 'General Purpose', 'Native', 'Programming Language'],
     imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3',
-    link: 'https://github.com/itsredx/mantiq',
+    link: 'https://github.com/itsredx/mantiqz',
   },
   {
     title: 'InquisiSTEM AI App',
