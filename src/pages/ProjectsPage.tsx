@@ -8,6 +8,20 @@ import { Link } from 'react-router-dom'; // Ensure correct import
 
 const projectsData = [
   {
+    title: 'Nizam Programming Language',
+    description: 'A modern systems programming language with Python-like syntax, designed for high performance, explicit memory management, native compilation, and low-level software development.',
+    technologies: ['LLVM', 'Zig', 'Systems Programming', 'Compiler'],
+    imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
+    link: 'https://github.com/itsredx/mantiq',
+  },
+  {
+    title: 'Mantiq Programming Language',
+    description: 'A modern general purpose programming language that combines Python-like simplicity with native performance, built for scripting, desktop, web, AI, and scalable application development.',
+    technologies: ['LLVM', 'Zig', 'Programming Language', 'Compiler'],
+    imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
+    link: 'https://github.com/itsredx/mantiq',
+  },
+  {
     title: 'WAEC Insights — WAEC Performance Predictor',
     description: 'Roadmap and implementation for improving WAEC pass-rate prediction (2016–2021) by upgrading a Random Forest baseline to time-aware XGBoost/CatBoost models.',
     technologies: ['Python', 'XGBoost', 'CatBoost', 'Feature Engineering', 'TimeSeriesSplit', 'Data Engineering', 'Machine Learning'],
